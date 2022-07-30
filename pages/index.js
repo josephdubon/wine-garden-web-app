@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography'
 
 import SafetyDividerIcon from '@mui/icons-material/SafetyDivider'
 import VpnLockIcon from '@mui/icons-material/VpnLock'
-import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium'
 
 const Item = styled(Paper)(({theme}) => ({
     // backgroundColor: theme.palette.mode === 'dark' ? '#543895' : '#fff', ...theme.typography.body2,
