@@ -1,6 +1,6 @@
 # Wine Garden
 
-WineGarden is a decentralized, DAO governed dApp built on the Cardano blockchain.
+WineGarden is a decentralized, DAO governed dApp built on the Cardano blockchain. This is our user facing web presence.
 
 ## How to use
 

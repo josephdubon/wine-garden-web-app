@@ -14,12 +14,15 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "@types/react": "^17.0.48",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-player": "^2.10.1"
   },
   "devDependencies": {
     "eslint": "latest",
