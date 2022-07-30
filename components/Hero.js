@@ -70,8 +70,10 @@ export default function Hero({heroVideo, buttonText, buttonUrl}) {
 
                         {/* Learn More Button */}
                         <Button color='primary' variant='outlined' size='large'>
-                            <Link href={'#learn-more'}>
-                                Learn More
+                            <Link href={buttonUrl}>
+                                <a>
+                                    {buttonText}
+                                </a>
                             </Link>
                         </Button>
                     </Container>
