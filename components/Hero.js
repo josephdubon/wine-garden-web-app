@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
         paddingBottom: theme.spacing(4),
     },
 }))
-export default function Hero({heroVideo}) {
+export default function Hero({heroVideo, buttonText, buttonUrl}) {
     const classes = useStyles()
 
     return (<>
