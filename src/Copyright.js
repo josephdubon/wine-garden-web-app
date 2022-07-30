@@ -1,15 +1,15 @@
 import * as React from 'react'
 import Typography from '@mui/material/Typography'
-import MuiLink from '@mui/material/Link'
+import Link from '../src/Link'
 
 export default function Copyright() {
     return (
         <Typography variant='body2' color='text.secondary' align='center'>
             {'Copyright © '}
-            <MuiLink color='inherit' href='/'>
+            <Link color='inherit' href='/'>
                 Wine Garden
-            </MuiLink>{' '}
-            {new Date().getFullYear()}.
+            </Link>{' '}
+            {new Date().getFullYear()}
         </Typography>
     )
 }
