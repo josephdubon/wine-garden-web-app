@@ -1,6 +1,7 @@
 import * as React from 'react'
 import SvgIcon from '@mui/material/SvgIcon'
 import Typography from '@mui/material/Typography'
+import Head from 'next/head'
 
 function LightBulbIcon(props) {
     return (<SvgIcon {...props}>
@@ -11,6 +12,11 @@ function LightBulbIcon(props) {
 
 export default function TermsOfUseAndService() {
     return (<>
+        <Head>
+            <title>Legal Page - Wine Garden</title>
+            <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
+        </Head>
+
         <Typography sx={{mt: 6, mb: 3}} color='text.secondary'>
             <LightBulbIcon sx={{mr: 1, verticalAlign: 'middle'}}/>
             (Terms of Use and Service)
