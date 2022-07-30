@@ -39,7 +39,7 @@ export default function Index() {
             >
                 <Grid
                     container
-                    spacing={2}
+                    spacing={12}
                     justifyContent='center'
                     alignItems='center'
                 >
