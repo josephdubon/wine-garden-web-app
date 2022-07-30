@@ -7,6 +7,7 @@ import {CacheProvider} from '@emotion/react'
 import theme from '../src/theme'
 import createEmotionCache from '../src/createEmotionCache'
 import '../public/global.css'
+import GlobalFooter from '../components/GlobalFooter'
 
 
 // Client-side cache, shared for the whole session of the user in the browser.
@@ -24,6 +25,7 @@ export default function MyApp(props) {
                 {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
                 <CssBaseline/>
                 <Component {...pageProps} />
+                <GlobalFooter/>
             </ThemeProvider>
         </CacheProvider>
     )
