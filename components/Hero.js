@@ -58,7 +58,7 @@ export default function Hero({heroVideo, buttonText, buttonUrl}) {
                         <Image src={'/media/branding/wine-garden-logo.svg'} width={800} height={300}/>
 
                         {/* Hero Intro */}
-                        <Typography variant='p' component='p' className={classes.title}>
+                        <Typography variant='p' component='p' className={classes.introText}>
                             WineGarden is a decentralized, DAO governed dApp built on the Cardano blockchain. We offer a
                             no-cost lottery that allows for regular winnings to be distributed automatically from
                             multiple
