@@ -25,7 +25,8 @@ const useStyles = makeStyles(theme => ({
         height: '100%',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
     },
-    title: {
+    introText: {
+        lineHeight: '32px',
         paddingBottom: theme.spacing(4),
     },
 }))
